@@ -89,6 +89,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5) ),url('./ass
 
 }
   .box{
+   
    border: 1px solid rgb(221, 216, 216);
    margin: 20px;
    border-radius: 20px;
@@ -99,7 +100,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5) ),url('./ass
     flex-direction: row;
     /* margin: 10px; */
  }
- .section3 h1{
+ .heading{
     font-size: 60px;
     font-family: inter, sans-serif;
     font-weight: bold;
@@ -108,8 +109,64 @@ background: linear-gradient( rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5) ),url('./ass
     margin-bottom: 20px;
 } 
   .section3 p{
-    font-size: 15px;
-    font-family: inter, sans-serif;
+    
     margin-bottom: 10px;
     margin-top: 10px;
+}
+.gray-lines{
+   color:  #575757FF;
+   font-size: 15px;
+    font-family: inter, sans-serif;
+}
+.blue-lines{
+    color:  #5353F2FF;
+    font-size: 15px;
+    font-family: inter, sans-serif;
+}
+.section4 .white-lines{
+    color:  #FFFFFFFF;
+    font-family: inter, sans-serif;
+}
+
+
+
+
+
+.section4 li{
+    list-style-position: blue;
+    font-size: 15px;
+    font-family: inter, sans-serif;
+   color: #333333FF;  
+   padding: 10px 0;  
+  
+}
+
+.section4 .speakers .box{
+     margin: 15px;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: left; 
+    
+}
+.button{
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 15px;
+    padding:10px 80px;
+    border-radius: 7px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.button1{
+     border: 1px solid #2563ebFF;
+    background-color: white;
+    color:  #2563ebFF;
+    
+}
+.button2{
+     border: 1px solid #2563ebFF;
+    background-color: #2563ebFF;
+    color: white;
 }
