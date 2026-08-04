@@ -40,9 +40,11 @@ img{
 .banner{
 background: linear-gradient( rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5) ),url('./assets/banner.jpg');
     margin-top: 20px;
-     background-size: cover; 
+    background-size: cover; 
     background-position: center;
-   height: 100vh;
+   /* height: 100vh; */
+   height: 780px;
+   width: 1550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,6 +194,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.5) ),url('./ass
 }
 
 footer{
+    width: 1550px;
     display: flex;
     align-items: center;
     background-color:  #0d1b2aFF;
